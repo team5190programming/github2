@@ -23,6 +23,8 @@ public class Target {
     private static final double FRC_ALIGNMENT_SCALE = 3.0;
     final ParticleAnalysisReport firstParticle;
     final ParticleAnalysisReport secondParticle;
+    
+    
 
     Target(ParticleAnalysisReport firstParticle, ParticleAnalysisReport secondParticle) {
         this.firstParticle = firstParticle;
